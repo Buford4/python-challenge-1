@@ -144,6 +144,8 @@ while place_order:
                         quantity = int(quantity)  
                     else:
                         quantity = 1
+                        print("You did not select a valid menu option. Defaulting to 1.")
+
 
 
                     # Add the item name, price, and quantity to the order list
@@ -153,7 +155,7 @@ while place_order:
                         "Quantity":quantity})
 
                     # Tell the customer that their input isn't valid
-                    print("You did not select a valid menu option. Defaulting to 1.")
+                    
 
             else:
                 # Tell the customer they didn't select a menu option
